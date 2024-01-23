@@ -10,7 +10,6 @@
     - average([1, 1]) // Retorno: 1;
     - average([1, '2']) // Retorno: undefined;
 */
-// const average = () => {};
 
 const average = (numbers) => {
   if (!Array.isArray(numbers) || numbers.length === 0 
