@@ -36,3 +36,30 @@ A página desenvolvida apresenta as seguintes características:
 - **Contador de Caracteres**: Um contador que atualiza o número de caracteres enquanto a textarea é digitada.
 - **Substituição do Formulário**: Ao clicar no botão Enviar, o formulário é substituído pelas informações preenchidas pelo usuário.
 - **Versão Mobile**: O formulário é responsivo e otimizado para dispositivos móveis.
+
+## Instruções de Instalação e Uso
+
+1. **Faça um Fork do Repositório**:
+   - Acesse o [repositório original do projeto](https://github.com/JyojiTenguam/project-trybewarts) no GitHub e clique em **"Fork"** no canto superior direito para criar uma cópia do projeto na sua conta.
+
+2. **Clone o Repositório Forkado**:
+   - Após fazer o fork, copie o link do seu repositório e clone-o para o seu computador:
+
+    ```bash
+    git clone git@github.com:seu-usuario/project-trybewarts.git
+    ```
+
+3. **Navegue até o Diretório do Projeto**:
+
+    ```bash
+    cd project-trybewarts
+    ```
+
+4. **Instale as Dependências**:
+
+    ```sh
+    npm install
+    ```
+
+5. **Visualize o Projeto**:
+   - Abra o arquivo `index.html` em seu navegador para visualizar o projeto.
