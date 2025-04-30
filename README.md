@@ -1,67 +1,58 @@
-# Projeto Trybewarts Wizarding School 🧙
+# 🧪 JavaScript Unit Tests
 
-Este projeto foi desenvolvido como parte do curso da Trybe, com o objetivo de criar um formulário interativo para a escola de bruxos Trybewarts. A seguir, você encontrará informações sobre como configurar e executar o projeto, bem como detalhes sobre as funcionalidades implementadas.
+Projeto desenvolvido durante o curso da Trybe com o objetivo de praticar a escrita de testes unitários em JavaScript utilizando a biblioteca Jest. O foco foi desenvolver a habilidade de criar e entender testes automatizados para funções puras.
 
-## Tecnologias Utilizadas
+## ✨ Demonstração
 
-- JavaScript
-- HTML
-- CSS
+> Este projeto é composto por testes automatizados, não há interface visual.
 
-## Funcionalidades do Projeto
+## 📋 Índice
 
-A página desenvolvida apresenta as seguintes características:
+- [Sobre](#-sobre)
+- [Habilidades desenvolvidas](#-habilidades-desenvolvidas)
+- [Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [Como rodar o projeto](#-como-rodar-o-projeto)
+- [Autor](#-autor)
 
-1. **Barra Superior**: Uma barra verde na parte superior da página com a classe `header` e cor de fundo `rgb(50, 167, 145)`.
-2. **Logotipo da Trybewarts**: O logotipo está posicionado dentro do header.
-3. **Formulário de Login**: Um formulário com inputs de email e senha, que dispara alertas com base na validação dos dados inseridos.
-4. **Título Centralizado**: Um título "Trybewarts" centralizado no cabeçalho.
-5. **Formulário Principal**: Um formulário dentro da tag `main` com largura de 675px.
-6. **Direção Vertical**: Os itens do formulário estão organizados verticalmente.
-7. **Logo ao Lado Direito**: A logo da Trybewarts posicionada ao lado direito da página.
-8. **Inputs**: Campos para nome, sobrenome e email no formulário.
-9. **Select**: Um campo select com opções de casas.
-10. **Campos lado a lado**: Campos de Nome/Sobrenome e Email/Casa posicionados lado a lado.
-11. **Inputs do Tipo Radio**: Três inputs do tipo radio para a escolha da família.
-12. **Checkboxes**: Seis opções de checkbox para conteúdos desejados.
-13. **Campo de Avaliação**: Um campo de avaliação de 1 a 10 sobre a Trybewarts.
-14. **Textarea**: Uma textarea com limite de 500 caracteres para feedback.
-15. **Checkbox de Validação**: Um checkbox para validar as informações digitadas.
-16. **Botão de Enviar**: Um botão de submit para enviar o formulário.
-17. **Habilitação do Botão**: O botão de enviar é habilitado ou desabilitado conforme o checkbox.
-18. **Rodapé**: Um rodapé com direitos reservados à Trybewarts.
+## 💡 Sobre
 
-### Requisitos Bônus
+Neste projeto, foram implementados testes unitários para funções que realizam diferentes tarefas, como cálculos, manipulação de arrays e strings. Cada função foi testada com diferentes entradas e saídas esperadas, reforçando a importância dos testes no ciclo de desenvolvimento de software.
 
-- **Contador de Caracteres**: Um contador que atualiza o número de caracteres enquanto a textarea é digitada.
-- **Substituição do Formulário**: Ao clicar no botão Enviar, o formulário é substituído pelas informações preenchidas pelo usuário.
-- **Versão Mobile**: O formulário é responsivo e otimizado para dispositivos móveis.
+O objetivo principal é garantir que as funções estejam funcionando corretamente e que eventuais mudanças futuras no código não quebrem funcionalidades existentes.
 
-## Instruções de Instalação e Uso
+## 🛠️ Habilidades desenvolvidas
 
-1. **Faça um Fork do Repositório**:
-   - Acesse o [repositório original do projeto](https://github.com/JyojiTenguam/project-trybewarts) no GitHub e clique em **"Fork"** no canto superior direito para criar uma cópia do projeto na sua conta.
+- Escrita de testes unitários com Jest
+- Cobertura de testes para funções puras
+- Compreensão de boas práticas de testes
+- Leitura e interpretação de falhas em testes automatizados
 
-2. **Clone o Repositório Forkado**:
-   - Após fazer o fork, copie o link do seu repositório e clone-o para o seu computador:
+## 🧪 Tecnologias utilizadas
 
-    ```bash
-    git clone git@github.com:seu-usuario/project-trybewarts.git
-    ```
+- JavaScript ES6+
+- Node.js
+- Jest
 
-3. **Navegue até o Diretório do Projeto**:
+## 🚀 Como rodar o projeto
 
-    ```bash
-    cd project-trybewarts
-    ```
+1. Clone o repositório:
 
-4. **Instale as Dependências**:
+   ```bash
+   git clone https://github.com/tryberjs-unit-tests.git
+   ```
 
-    ```sh
-    npm install
-    ```
+2. Acesse a pasta do projeto
 
-5. **Visualize o Projeto**:
-   - Abra o arquivo `index.html` em seu navegador para visualizar o projeto.
+   ```bash
+   cd js-unit-tests
+   ```
 
-Lembre-se de substituir `"seu-usuario"` pelo seu nome de usuário no GitHub para que o link do fork seja correto.
+3. Instale as dependências
+
+   ```bash
+   npm install
+   ```
+
+## 👤 Autor
+
+Este projeto foi desenvolvido como parte do curso de Desenvolvimento Web da Trybe, por Jyoji Tenguam.
